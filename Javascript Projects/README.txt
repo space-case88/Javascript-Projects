@@ -1,0 +1,1 @@
+This is a repository that is being used for my Tech Academy course for Javascript. It is from hear that you can see what I have been working on.
