@@ -9,3 +9,4 @@ function myFunction() {         // This is the function that coincides with the 
     sentence += " a lot from AI!";
     document.getElementById("Concatenate").innerHTML = sentence;
 }
+
