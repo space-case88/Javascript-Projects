@@ -52,7 +52,7 @@ function Age_Function() {
     else {
         Vote = "You have no rights, ya dingus!"
     }
-    document.getElementById("How old are you?").innerHTML = Vote;
+    document.getElementById("How_old_are_you?").innerHTML = Vote;
 }
 
 //This is another example of "if" and "else"
