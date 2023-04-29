@@ -1,6 +1,9 @@
 //This is a loop exercise
-let text = "This is some text so that I can say something other than Hello world.";
-let length = text.length;
+function Call_Loop() {
+    let text = "This is some text so that I can say something other than Hello world.";
+    let length = text.length;
+    document.getElementById("Loop").innerHTML = text;
+}
 
 //This is a for loop exercise
 var Instruments = ["Keyboard", "Guitar", "Drums", "Piano", "Marimba", "Cello", "Bass", "Violin", "Flute"];
@@ -34,7 +37,7 @@ function constant_function() {
 }
 
 //This is the let keyword exercise
-var X = 48(X);
+let X = 48;
 {
     let X = 17;
     document.write("<br>"+ X);
@@ -83,4 +86,15 @@ function Press_to_Continue() {
         text += "The number is " + j + "<br>";
     }
 document.getElementById("Continue").innerHTML = text;
+}
+
+//This is a while loop
+function countNumbers() {
+  let k = 1;
+  let output = "";
+  while (k <= 10) {
+    output += k + "<br>";
+    k++;
+  }
+  document.getElementById("While").innerHTML = output;
 }
