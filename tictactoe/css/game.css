@@ -1,0 +1,38 @@
+/*This is the background color of the page*/
+body {
+    background-color: rgb(160, 245, 193);
+}
+
+/*This container includes out table and our canvas*/
+.center-container {
+    width: 608px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+/*This will change the pointer to an index finger hand when we hover over the td elements*/
+td {
+    cursor: pointer;
+    border: 4px solid rgba(140, 3, 252, 0.8);
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+    filter: contrast(3);
+}
+
+/*This property sets the position of our canvas to the top left corner of the container*/
+canvas {
+    position: absolute;
+    z-index: 10;
+    pointer-events: none;
+}
+
+/*This is the styling to the h1 element*/
+h1 {
+    text-align: center;
+}
