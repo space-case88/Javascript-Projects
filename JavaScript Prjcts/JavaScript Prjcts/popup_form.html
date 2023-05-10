@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>popup menu</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/popup_form.css">
+    <script src="JS/popup_form.js"></script>
+
+</head>
+
+<body>
+
+  <!--This is a link to another web page-->
+  <a href="https://geekhack.org/index.php">GeekHack</a>
+
+    <!-- The navbar -->
+  <div id="navbar">
+    <a class="active" href="#section1">Section 1</a>
+    <a href="#section2">Section 2</a>
+    <a href="#section3">Section 3</a>
+    <a href="#section4">Section 4</a>
+  </div>
+
+  <!-- Section 1: Image that zooms in when clicked -->
+  <section id="section1">
+    <img src="images/photo_zoom.jpg" id="flores">
+  </section>
+
+  <!-- Section 2: A button to open the popup form -->
+  <section id="section2">
+    <button class="open-button" onclick="openForm()">Open Form</button>
+  </section>
+
+  <!-- Section 3: Animated header -->
+  <section id="section3">
+    <h1>This should move down the screen.</h1>
+  </section>
+
+  <!-- Section 4: button to image with smooth scrolling -->
+  <section id="section4">
+    <img src="images/james.png" id="james">
+  </section>
+
+  <!-- Section 5: The popup form -->
+  <section id="section5">
+    <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <h1>Login</h1>
+  
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+  
+        <button type="submit" class="btn">Login</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div>
+  </section>
+
+  <!--This is a slideshow-->
+  <div id="slideshow">
+    <div>
+      <img src="images/slide1.jpg">
+    </div>
+    <div>
+      <img src="images/slide2.webp">
+    </div>
+    <div>
+      <img src="images/slide3.jpg">
+    </div>
+  </div>
+
+</body>
+</html>
